@@ -124,6 +124,8 @@ This project demonstrates a full-cycle data workflow, from ETL pipeline construc
 
 ## References
 
-[1] Kaggle. (2023). *IoT-Sensor-Data-for-Energy-Efficiency-in-Wireless-Body-Sensor-Networks*. Retrieved from https://www.kaggle.com/datasets/cde-paas/iotsensordataforenergyefficiencyinwirelessbodysensornetworks
+[1] Ziya07. (n.d.). *IoT sensor–cloud data transmission dataset* [Dataset]. Kaggle. Retrieved December 19, 2025, from https://www.kaggle.com/datasets/ziya07/iot-sensorcloud-data-transmission-dataset
 
-[2] Liu, F. T., Ting, K. M., & Zhou, Z. H. (2008). Isolation Forest. *2008 Eighth IEEE International Conference on Data Mining*, 413-422.
+
+[2] Liu, F. T., Ting, K. M., & Zhou, Z. H. (2008). Isolation forest. *Proceedings of the 2008 eighth IEEE international conference on data mining*, 413–422. IEEE. https://doi.org/10.1109/ICDM.2008.17
+
