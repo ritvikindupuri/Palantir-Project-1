@@ -22,11 +22,15 @@ The pipeline consists of four main stages:
 3.  **Aggregation**: The data is then aggregated by `sensor_type` to calculate the average efficiency ratio for each sensor.
 4.  **Output Data**: The final output is a clean, aggregated dataset named `sensor_performance_summary` with 2 columns.
 
-Here is a screenshot of the final, deployed pipeline in Foundry:
+<br>
 
-![Palantir Foundry Pipeline](pipeline_deployed.png)
+<p align="center">
+  <img src="pipeline_deployed.png" alt="Palantir Foundry Pipeline" width="800"/>
+  <br>
+  <em>Figure 1: The complete, deployed ETL pipeline in Palantir Foundry.</em>
+</p>
 
-The pipeline shows the complete data flow from the raw input dataset through transformation and aggregation to the final output, which is marked as **"Deployed and built"**.
+<br>
 
 ### AI Features in the Pipeline
 
@@ -46,7 +50,15 @@ I used the **Isolation Forest** algorithm to identify anomalous sensor readings.
 
 -   **Results**: The model identified 10% of the records as anomalies, which are visualized in the scatter plot below.
 
-![Anomaly Detection Scatter Plot](anomaly_detection_scatter.png)
+<br>
+
+<p align="center">
+  <img src="anomaly_detection_scatter.png" alt="Anomaly Detection Scatter Plot" width="700"/>
+  <br>
+  <em>Figure 2: Anomaly detection results using the Isolation Forest algorithm.</em>
+</p>
+
+<br>
 
 ### Data Visualizations
 
@@ -56,7 +68,15 @@ I created a series of visualizations to provide a clear and insightful overview 
 
 This dashboard provides a multi-faceted view of sensor performance, combining aggregated metrics with detailed distributions.
 
-![Sensor Performance Dashboard](performance_dashboard.png)
+<br>
+
+<p align="center">
+  <img src="performance_dashboard.png" alt="Sensor Performance Dashboard" width="800"/>
+  <br>
+  <em>Figure 3: A comprehensive dashboard of sensor performance metrics.</em>
+</p>
+
+<br>
 
 **Key Insights from the Dashboard:**
 
@@ -67,17 +87,16 @@ This dashboard provides a multi-faceted view of sensor performance, combining ag
 
 This heatmap reveals the relationships between different sensor metrics, which is crucial for feature engineering and understanding the data.
 
-![Correlation Matrix](correlation_heatmap.png)
+<br>
 
-## How to Use This Project
+<p align="center">
+  <img src="correlation_heatmap.png" alt="Correlation Matrix" width="600"/>
+  <br>
+  <em>Figure 4: Correlation matrix of key sensor performance metrics.</em>
+</p>
 
-1.  **View the Pipeline**: The ETL pipeline is deployed and can be viewed in the Palantir Foundry workspace.
-2.  **Explore the Data**: The output dataset, `sensor_performance_summary`, is available for further analysis in Foundry.
-3.  **Review the Code**: The Python script for the ML analysis and visualizations (`create_visualizations.py`) is included in this repository.
+<br>
 
 ## Conclusion
 
 This project demonstrates a full-cycle data workflow, from ETL pipeline construction to advanced machine learning analysis and visualization. It showcases a strong command of Palantir Foundry, data engineering principles, and data science techniques, making it a compelling project for a Palantir developer application.
-
-
-live
