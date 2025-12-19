@@ -25,7 +25,7 @@ The pipeline consists of four main stages:
 <br>
 
 <p align="center">
-  <img src="pipeline_deployed.png" alt="Palantir Foundry Pipeline" width="800"/>
+  <img src="https://i.imgur.com/hQlrZ7K.png" alt="Palantir Foundry Pipeline" width="800"/>
   <br>
   <em>Figure 1: The complete, deployed ETL pipeline in Palantir Foundry.</em>
 </p>
@@ -53,7 +53,7 @@ I used the **Isolation Forest** algorithm to identify anomalous sensor readings.
 <br>
 
 <p align="center">
-  <img src="anomaly_detection_scatter.png" alt="Anomaly Detection Scatter Plot" width="700"/>
+  <img src="https://i.imgur.com/jSteg1G.png" alt="Anomaly Detection Scatter Plot" width="700"/>
   <br>
   <em>Figure 2: Anomaly detection results using the Isolation Forest algorithm.</em>
 </p>
@@ -64,24 +64,32 @@ I used the **Isolation Forest** algorithm to identify anomalous sensor readings.
 
 I created a series of visualizations to provide a clear and insightful overview of the sensor data.
 
-#### Sensor Performance Dashboard
+#### Sensor Performance
 
-This dashboard provides a multi-faceted view of sensor performance, combining aggregated metrics with detailed distributions.
+To visualize the performance of different sensor types, I created a bar chart of the average efficiency ratio and a box plot of the performance score distribution.
 
 <br>
 
 <p align="center">
-  <img src="performance_dashboard.png" alt="Sensor Performance Dashboard" width="800"/>
+  <img src="https://i.imgur.com/hhKXPDd.png" alt="Average Efficiency Ratio by Sensor Type" width="700"/>
   <br>
-  <em>Figure 3: A comprehensive dashboard of sensor performance metrics.</em>
+  <em>Figure 3: Average efficiency ratio for each sensor type.</em>
 </p>
 
 <br>
 
-**Key Insights from the Dashboard:**
+<p align="center">
+  <img src="https://i.imgur.com/IvY0FH1.png" alt="Performance Score Distribution by Sensor Type" width="700"/>
+  <br>
+  <em>Figure 4: Distribution of performance scores for each sensor type.</em>
+</p>
+
+<br>
+
+**Key Insights from the Visualizations:**
 
 -   `ECG` and `PulseOximeter` sensors have the highest average efficiency.
--   `PulseOximeter` and `Accelerometer` sensors exhibit the most anomalies.
+-   The performance scores for all sensor types have a similar median, but some, like `BloodPressure`, have a wider range of outliers.
 
 #### Correlation Matrix
 
@@ -90,9 +98,9 @@ This heatmap reveals the relationships between different sensor metrics, which i
 <br>
 
 <p align="center">
-  <img src="correlation_heatmap.png" alt="Correlation Matrix" width="600"/>
+  <img src="https://i.imgur.com/S4G7iXc.png" alt="Correlation Matrix" width="600"/>
   <br>
-  <em>Figure 4: Correlation matrix of key sensor performance metrics.</em>
+  <em>Figure 5: Correlation matrix of key sensor performance metrics.</em>
 </p>
 
 <br>
@@ -100,3 +108,6 @@ This heatmap reveals the relationships between different sensor metrics, which i
 ## Conclusion
 
 This project demonstrates a full-cycle data workflow, from ETL pipeline construction to advanced machine learning analysis and visualization. It showcases a strong command of Palantir Foundry, data engineering principles, and data science techniques, making it a compelling project for a Palantir developer application.
+
+
+live
